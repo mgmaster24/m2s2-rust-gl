@@ -1,7 +1,10 @@
 [package]
-name = "m2s2-gl"
+name = "m2s2-gl-bin"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 sdl2 = { version = "0.37.0", features = ["bundled", "static-link"] }
+gl = "0.14.0"
+m2s2-gl-lib = { path = "../m2s2-gl-lib" }
+

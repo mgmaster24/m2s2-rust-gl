@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["m2s2-gl-lib", "m2s2-gl-bin"]
